@@ -28,3 +28,8 @@ This repository contains all necessary course materials needed for the software 
 
 - Please only use the provided code. Do not change it!
 - Align to the [Standards](./jack-resources/Standards/README.md)!
+- Keep a good folder and exercise structure in jack!
+  - YourAlgorithm/
+    - Practical
+    - Theoretical
+- Only use images you have created. Otherwise it will lead to copyright issues!
