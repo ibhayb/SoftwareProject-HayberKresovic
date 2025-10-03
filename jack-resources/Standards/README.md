@@ -11,7 +11,7 @@ Die Beispielaufgaben, welche wir erstellt haben, folgen jene Konventionen.
 Beispiel:
 
 ```
-Incorrect.
+Incorrect. Feedback here.
 
 Solution: 42
 ```
@@ -58,7 +58,7 @@ After that, leave an **empty line**, followed by the solution explanation starti
 Example:
 
 ```
-Incorrect.
+Incorrect. Feedback here.
 
 Solution: 42
 ```
