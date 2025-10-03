@@ -43,6 +43,35 @@ Beispiel:
 <details ...>Rest von dem Kopiertem...</details>
 ```
 
+### Latex Notations
+
+Falls etwas mathematisches Angegeben werden soll, muss Latex benutzt werden.
+
+**Big-O:**
+`$\mathcal{O}(n)$` wird $\mathcal{O}(n)$
+
+**Theta:**
+`$\Theta{O}(n)$` wird $\Theta(n)$
+
+**Omega:**
+`$\Omega(n)$` wird $\Omega(n)$
+
+**Small-O:**
+`$o(n)$` wird $o(n)$
+
+**Small-Omega:**
+`$\omega(n)$` wird $\omega(n)$
+
+**Tilde:**
+`$\sim(n)$` wird $\sim(n)$
+
+---
+
+Do's and don't
+
+❌ `$ x * y $` wird $x*y$
+✅ `$ x \cdot y $` wird $x \cdot y$
+
 # Standards (english version)
 
 We follow specific standards and conventions to ensure that all tasks have a consistent look and feel.
@@ -96,3 +125,32 @@ Code blocks should always appear **at the end** of the task description, with **
   <!-- Insert copied code block content here -->
 </details>
 ```
+
+### Latex Notations
+
+If you use anything related to mathematics. Please use latex notation.
+
+**Big-O:**
+`$\mathcal{O}(n)$` will be $\mathcal{O}(n)$
+
+**Theta:**
+`$\Theta{O}(n)$` will be $\Theta(n)$
+
+**Omega:**
+`$\Omega(n)$` will be $\Omega(n)$
+
+**Small-O:**
+`$o(n)$` will be $o(n)$
+
+**Small-Omega:**
+`$\omega(n)$` will be $\omega(n)$
+
+**Tilde:**
+`$\sim(n)$` will be $\sim(n)$
+
+---
+
+Do's and don't
+
+❌ `$ x * y $` will be $x*y$
+✅ `$ x \cdot y $` will be $x \cdot y$
