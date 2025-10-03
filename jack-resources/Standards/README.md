@@ -87,6 +87,7 @@ Do's and don't
 Bitte verwende genau dieselben Einstellungen, wenn du solche Graphen erstellst.
 
 Beispielgraph:
+
 <img src="example_graph.png" alt="graph" width="150">
 
 Partial example code from the graph above:
@@ -223,6 +224,7 @@ Do's and don't
 
 Please use the exact same settings if you are doing graphs like this.
 Example graph:
+
 <img src="example_graph.png" alt="graph" width="150">
 
 Partial example code from the graph above:
@@ -261,3 +263,4 @@ width="0.75", height="0.75")
 dot.node("node_b", "B\n(End)", shape="doublecircle", fixedsize="true",
  width="0.75", height="0.75")
 ```
+
