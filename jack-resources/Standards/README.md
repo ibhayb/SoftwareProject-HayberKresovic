@@ -16,6 +16,16 @@ Incorrect. Feedback here.
 Solution: 42
 ```
 
+Beispiel mit mehr als einer Lösung:
+
+```
+Incorrect. Feedback here.
+
+Solution:
+    •42
+    •46
+```
+
 ### FillIn Felder
 
 Bei einer falschen Antwort, soll das FillIn Feld rot gefärbt werden (Feedback --> More Feedbacks --> Add field to be marked --> Color: #ff0000). Bei einer richtigen Antwort, wird die Farbe des Feldes nicht geändert.
@@ -90,6 +100,16 @@ Example:
 Incorrect. Feedback here.
 
 Solution: 42
+```
+
+Example with more than one solutions:
+
+```
+Incorrect. Feedback here.
+
+Solution:
+    •42
+    •46
 ```
 
 ### FillIn Fields
