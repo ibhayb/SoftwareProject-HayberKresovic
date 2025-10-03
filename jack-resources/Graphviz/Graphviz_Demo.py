@@ -13,7 +13,7 @@ import base64
 
 
 def test_graphviz():
-    """Checks whether Graphviz is correctly configured on the system. 
+    """Checks whether Graphviz is correctly configured on the system.
     This function does not produce any output."""
     dot: graphviz.Digraph = graphviz.Digraph()
     dot.attr("graph", center="True", dpi="300",

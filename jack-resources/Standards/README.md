@@ -82,6 +82,50 @@ Do's and don't
 ❌ `$ x * y $` wird $x*y$
 ✅ `$ x \cdot y $` wird $x \cdot y$
 
+### Graphen
+
+Bitte verwende genau dieselben Einstellungen, wenn du solche Graphen erstellst.
+
+Beispielgraph:
+<img src="example_graph.png" alt="graph" width="150">
+
+Partial example code from the graph above:
+
+**Haupteinstellungen:**
+
+```py
+dot.attr("graph", center="True", dpi="300", label="Sample Graph", labelloc = "t")
+```
+
+**Start-Knoten:**
+
+```py
+dot.node("node_a", "A\n(Start)", shape="circle", penwidth="4",
+fixedsize="true", width="0.75", height="0.75")
+```
+
+**Pfad:**
+If you want to mark a certain path do it like this:
+
+```py
+dot.edge("node_a", "node_c", label="1", color="blue")
+dot.edge("node_c", "node_d", label="2", color="blue")
+```
+
+**Normaler Knoten:**
+
+```py
+dot.node("node_c", "C", shape="circle", fixedsize="true",
+width="0.75", height="0.75")
+```
+
+**End-Knoten:**
+
+```py
+dot.node("node_b", "B\n(End)", shape="doublecircle", fixedsize="true",
+ width="0.75", height="0.75")
+```
+
 # Standards (english version)
 
 We follow specific standards and conventions to ensure that all tasks have a consistent look and feel.
@@ -174,3 +218,46 @@ Do's and don't
 
 ❌ `$ x * y $` will be $x*y$
 ✅ `$ x \cdot y $` will be $x \cdot y$
+
+### Graphs
+
+Please use the exact same settings if you are doing graphs like this.
+Example graph:
+<img src="example_graph.png" alt="graph" width="150">
+
+Partial example code from the graph above:
+
+**Main Settings:**
+
+```py
+dot.attr("graph", center="True", dpi="300", label="Sample Graph", labelloc = "t")
+```
+
+**Start-Node:**
+
+```py
+dot.node("node_a", "A\n(Start)", shape="circle", penwidth="4",
+fixedsize="true", width="0.75", height="0.75")
+```
+
+**Paths:**
+If you want to mark a certain path do it like this:
+
+```py
+dot.edge("node_a", "node_c", label="1", color="blue")
+dot.edge("node_c", "node_d", label="2", color="blue")
+```
+
+**Node:**
+
+```py
+dot.node("node_c", "C", shape="circle", fixedsize="true",
+width="0.75", height="0.75")
+```
+
+**End-Node:**
+
+```py
+dot.node("node_b", "B\n(End)", shape="doublecircle", fixedsize="true",
+ width="0.75", height="0.75")
+```
