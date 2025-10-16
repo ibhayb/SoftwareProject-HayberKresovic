@@ -92,6 +92,7 @@ In anderen Fällen, z. B. wenn eine Kante eine eindeutige Bezeichnung bekommen s
 Bitte verwende genau dieselben Einstellungen, wenn solche Graphen erstellst.
 
 Beispielgraph:
+
 <img src="example_graph.png" alt="graph" width="150">
 
 Partial example code from the graph above:
@@ -232,6 +233,7 @@ For other cases like giving the edge a unique label use _small letters_.
 
 Please use the exact same settings if you are doing graphs like this.
 Example graph:
+
 <img src="example_graph.png" alt="graph" width="150">
 
 Partial example code from the graph above:
@@ -270,3 +272,4 @@ width="0.75", height="0.75")
 dot.node("node_b", "B\n(End)", shape="doublecircle", fixedsize="true",
  width="0.75", height="0.75")
 ```
+
