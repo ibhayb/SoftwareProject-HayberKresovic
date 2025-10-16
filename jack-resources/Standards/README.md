@@ -84,6 +84,11 @@ Do's and don't
 
 ### Graphen
 
+**Kantenbeschriftungen:**
+
+Manchmal müssen Kanten beschriftet werden. Für **Gewichte** werden natürlich **Zahlen** verwendet – wie im Beispiel unten.
+In anderen Fällen, z. B. wenn eine Kante eine eindeutige Bezeichnung bekommen soll, werden **kleine Buchstaben** verwendet.
+
 Bitte verwende genau dieselben Einstellungen, wenn du solche Graphen erstellst.
 
 Beispielgraph:
@@ -220,6 +225,10 @@ Do's and don't
 ✅ `$ x \cdot y $` will be $x \cdot y$
 
 ### Graphs
+
+**Edge-Labels:**
+Sometimes you will need to add labels to the edges. For weights of course use _numbers_. Like the example below.
+For other cases like giving the edge a unique label use _small letters_.
 
 Please use the exact same settings if you are doing graphs like this.
 Example graph:
