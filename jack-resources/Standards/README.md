@@ -89,7 +89,7 @@ Do's and don't
 Manchmal müssen Kanten beschriftet werden. Für **Gewichte** werden natürlich **Zahlen** verwendet – wie im Beispiel unten.
 In anderen Fällen, z. B. wenn eine Kante eine eindeutige Bezeichnung bekommen soll, werden **kleine Buchstaben** verwendet.
 
-Bitte verwende genau dieselben Einstellungen, wenn du solche Graphen erstellst.
+Bitte verwende genau dieselben Einstellungen, wenn solche Graphen erstellst.
 
 Beispielgraph:
 <img src="example_graph.png" alt="graph" width="150">
